@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;900&display=swap");
+
+.heading {
+  font-family: "Orbitron", sans-serif;
+  padding: 20px;
+  font-size: 46px;
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 10px;
+}
+
+.paraheadClass {
+  font-family: "Tourney", cursive;
+  padding: 5px;
+  font-size: 20px;
+}
+
+input[type="date"] {
+  background-color: rgba(73, 67, 70, 0.63);
+  padding: 10px;
+  font-family: "Gajraj One", cursive;
+  color: #ffffff;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+::-webkit-datetime-edit {
+  -webkit-flex: 1;
+  -webkit-user-modify: read-only !important;
+  display: inline-block;
+  min-width: 0;
+  overflow: hidden;
+}
+.particleDiv {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #000000;
+}
+
+.body {
+  color: #ffffff;
+}
+
+.dataClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titleClass {
+  font-family: "Gloock", serif;
+  font-size: 36px;
+  margin-top: 25px;
+  padding: 20px;
+  text-align: center;
+}
+.picDate {
+  font-family: "Cormorant", serif;
+  font-size: 14px;
+}
+.picCopyright {
+  font-family: "Cormorant", serif;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.desc {
+  display: flex;
+  flex-direction: row;
+}
+.imageCls {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 300px;
+  max-width:90vw;
+}
+
+.textClass {
+  font-size: 18px;
+  margin: 3vh 20vw;
+  text-align: justify;
+  font-family: "Inconsolata", monospace;
+  line-height: 16pt;
+}
+
+@media (max-width: 800px) {
+  .textClass {
+    margin: 20px 30px;
+  }
+  .desc {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.textClass::first-letter {
+  font-size: 25px;
+}
+
+.linktoD {
+  background-color: rgba(73, 67, 70, 0.63);
+  padding: 10px;
+  font-family: "Gajraj One", cursive;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 3px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: white;
+}
+.linktoD:hover {
+  color: #8589ff;
+}
+
+.loadingClas,
+.footerStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingGif {
+  width: 100px;
+}
+.footerText {
+  font-family: "Tourney", cursive;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footerLink {
+  text-decoration: none;
+  color: #fa3c3c;
+  cursor: pointer;
+}
+
+.nasaP {
+  color: #a7bbdb;
+}
